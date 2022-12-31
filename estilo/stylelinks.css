@@ -8,12 +8,13 @@ body, ul, li, p {
 
 img {
     max-height: 96vh;
+    
 }
 
 .flex {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(8, 1fr);
     max-height: 600px;
-    margin: 0 auto;
+    max-width: 300px;
     grid-gap: 3px;
 }
